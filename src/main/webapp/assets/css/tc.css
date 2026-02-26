@@ -1,0 +1,55 @@
+.send-btn {
+	width: 34px;
+	height: 34px;
+	display: flex;
+	align-items: center;
+	justify-content: center
+}
+
+.post-card {
+	border: 1px solid #e0e0e0;
+	border-radius: 8px;
+	background: #fff;
+	margin-bottom: 20px
+}
+
+.post-header {
+	padding: 15px 20px 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+}
+
+.post-content-area {
+	padding: 15px 20px;
+	border-top: 1px solid #e0e0e0
+}
+
+.post-image-minimal {
+	width: 100%;
+	max-height: 500px;
+	object-fit: contain;
+	background: #000;
+	display: block;
+}
+
+.feed-tabs {
+	background: #fff;
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 20px;
+	border-radius: 8px
+}
+
+.feed-tab-item {
+	cursor: pointer;
+	padding: 12px 0;
+	text-align: center;
+	font-weight: 600;
+	color: #65676b;
+	text-decoration: none;
+	display: block
+}
+
+.feed-tab-item.active {
+	color: #0d6efd
+}
